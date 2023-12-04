@@ -1,3 +1,4 @@
+#Do tuka stignah ma mai ne e nishto ;)
 n = int(input())
 matrix = []
 for _ in range(n):
