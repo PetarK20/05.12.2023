@@ -8,8 +8,6 @@ for _ in range(n):
 
 diagonal_sum = 0
 for i in range(n):
-    for j in range(i + 1):
-        diagonal_sum += matrix[i][j]
+    diagonal_sum += matrix[i][i]
 
 print(diagonal_sum)
-
